@@ -9,3 +9,16 @@ After you've run the script you should log out and in again or you can execute t
 docker build -t webserver-image .
 docker run -d -p 80:80 webserver-image
 ```
+
+Docker version
+
+```bash
+docker -v
+```
+
+IP/MAC
+
+```bash
+ifconfig
+```
+
